@@ -1,0 +1,24 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.custom-prev-arrow,.custom-prev-next{
+  display:none !important;
+}
+
+.custom-prev-arrow,
+.custom-next-arrow { 
+  display: none !important;
+}
+
